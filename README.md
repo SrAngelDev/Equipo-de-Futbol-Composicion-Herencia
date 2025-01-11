@@ -4,10 +4,8 @@ Este proyecto explora cómo aplicar los conceptos de herencia y composición jun
 
 Características principales:
 
-Implementación de herencia para definir jerarquías y relaciones entre diferentes tipos de miembros del equipo.
+- Implementación de herencia para definir jerarquías y relaciones entre diferentes tipos de miembros del equipo.
 
-Uso de composición para modularizar funcionalidades y promover la reutilización de código.
+- Uso de composición para modularizar funcionalidades y promover la reutilización de código.
 
-Definición de interfaces para asegurar la interoperabilidad y flexibilidad del sistema.
-
-Ejemplos prácticos y casos de uso para ilustrar la teoría con aplicaciones del mundo real.
+- Definición de interfaces para asegurar la interoperabilidad y flexibilidad del sistema.

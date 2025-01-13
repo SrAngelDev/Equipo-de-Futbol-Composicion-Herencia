@@ -1,6 +1,6 @@
 package srangeldev.models
 
-class JugadorDefensa(dorsal: Int) : Jugador(dorsal), Defender {
+class JugadorDefensa(dorsal: Int, posicion: Posicion) : Jugador(dorsal, posicion), Defender, Posicion {
     override fun defender() {
         println("Defendiendo como defensa")
     }
@@ -11,5 +11,9 @@ class JugadorDefensa(dorsal: Int) : Jugador(dorsal), Defender {
 
     override fun entrenar() {
         println("Entrenado como defensa")
+    }
+
+    override fun posicion() {
+        println("Tengo posicion de defensa")
     }
 }
